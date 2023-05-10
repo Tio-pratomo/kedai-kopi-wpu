@@ -8,9 +8,9 @@ module.exports = merge(config, {
     mode: 'development',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js',
+        filename: '[name].js',
         clean: true,
     },
     watch: true,
-    plugins: [MiniCssExtractPlugin()],
+    plugins: [new MiniCssExtractPlugin()],
 });

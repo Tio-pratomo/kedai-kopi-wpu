@@ -8,7 +8,7 @@ module.exports = merge(config, {
     mode: 'production',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.[contenthash].js',
+        filename: '[name].[contenthash].js',
         clean: true,
     },
     module: {
@@ -26,7 +26,7 @@ module.exports = merge(config, {
         ],
     },
     plugins: [
-        MiniCssExtractPlugin({
+        new MiniCssExtractPlugin({
             filename: 'main.[contenthash].css',
         }),
     ],
