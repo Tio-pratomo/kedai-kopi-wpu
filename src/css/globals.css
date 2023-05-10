@@ -20,7 +20,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
-
 }
 
 [class*="text-primary"] {
@@ -33,4 +32,8 @@ body {
 
 [class*="hamburger-menu"] {
     display: none;
+}
+
+[class*="title"] {
+    font-size: 2rem;
 }
