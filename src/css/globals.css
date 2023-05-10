@@ -20,5 +20,17 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
-    color: #ffffff;
+
+}
+
+[class*="text-primary"] {
+    color: var(--primary);
+}
+
+[class*="text-white"] {
+    color: #fff;
+}
+
+[class*="hamburger-menu"] {
+    display: none;
 }
