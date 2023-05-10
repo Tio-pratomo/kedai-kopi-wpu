@@ -1,18 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <script src="https://unpkg.com/feather-icons"></script>
-        <link rel="stylesheet" href="./css/style.css" />
-
-        <title>Kedai Kopi</title>
+        <title>Kopi Kenangan Senja</title>
     </head>
     <body>
         <!-- Navbar start -->
-        <!-- ** [ kerjain bagian navbar section disini ] ** -->
+        <nav class="navbar">
+            <a href="#" class="navbar__logo">
+                Kopi
+                <span class="navbar--text-primary">Senja</span>
+            </a>
+
+            <div class="navbar__nav">
+                <a class="navbar__item navbar__item--text-white" href="#">Home</a>
+                <a class="navbar__item navbar__item--text-white" href="#about">Tentang Kami</a>
+                <a class="navbar__item navbar__item--text-white" href="#menu">Menu</a>
+                <a class="navbar__item navbar__item--text-white" href="#contact">Contact</a>
+            </div>
+
+            <div class="navbar__extra">
+                <a class="navbar__extra__icon navbar__extra__icon--text-white" href="#" id="search">
+                    <i data-feather="search"></i>
+                </a>
+                <a class="navbar__extra__icon navbar__extra__icon--text-white" href="#" id="shopping-cart">
+                    <i data-feather="shopping-cart"></i>
+                </a>
+                <a
+                    class="navbar__extra__icon navbar__extra__icon--text-white navbar__extra__icon--hamburger-menu"
+                    href="#"
+                    id="hamburger-menu">
+                    <i data-feather="menu"></i>
+                </a>
+            </div>
+        </nav>
         <!-- Navbar end -->
 
         <!-- Hero section start -->
@@ -34,10 +58,5 @@
         <!-- footer section start -->
         <!-- ** [ kerjain bagian footer section disini ] ** -->
         <!-- footer section end -->
-
-        <script>
-            feather.replace()
-        </script>
-        <script src="./js/script.js"></script>
     </body>
 </html>
