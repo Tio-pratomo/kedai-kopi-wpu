@@ -17,6 +17,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
@@ -35,5 +39,5 @@ body {
 }
 
 [class*="title"] {
-    font-size: 2rem;
+    font-size: 2.375rem;
 }
