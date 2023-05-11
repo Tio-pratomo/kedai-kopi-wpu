@@ -2,7 +2,7 @@
     min-height: 100dvh;
     display: flex;
     align-items: center;
-    background-image: url("../img/banner-kopi-1.jpg");
+    background-image: url("../img/header-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,12 +13,53 @@
     content: "";
     display: block;
     position: absolute;
+    bottom: 0;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(0deg, rgba(1, 1, 3, 1) 3%, rgba(255, 255, 255, 0) 25%);
+    height: 10%;
+    background: linear-gradient(0deg, rgba(1, 1, 3, 1) 8%, rgba(255, 255, 255, 0) 50%);
 }
 
 .hero__content {
     padding: 1.4rem 7%;
     max-width: 60rem;
+}
+
+.hero__title {
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px rgba(1, 1, 3, 0.5);
+    line-height: 1.2;
+}
+
+.hero__title__coffee {
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px rgba(1, 1, 3, 0.5);
+    color: var(--primary);
+}
+
+.hero__blockquote__paragraph {
+    font-size: 1.5rem;
+    margin-top: 1.125rem;
+    line-height: 1.4;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(1, 1, 3, 0.5);
+    mix-blend-mode: difference;
+}
+
+.hero__blockquote__footer {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(1, 1, 3, 0.5);
+    mix-blend-mode: difference;
+}
+
+.hero__cta {
+    margin: 1rem 0 0 0;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
