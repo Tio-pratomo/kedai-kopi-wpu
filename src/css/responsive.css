@@ -61,6 +61,29 @@
     }
 
     /* NAVBAR END */
+
+    /* ABOUT */
+    .about__row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .about__img {
+        height: 24rem;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about__description {
+        padding: 0;
+    }
+
+    .about__description__title {
+        margin-top: 1rem;
+    }
+
+    /* ABOUT END */
 }
 
 /* SMARTPHONE */
@@ -71,4 +94,6 @@
 
     /* NAVBAR START */
     /* NAVBAR END */
+
+
 }

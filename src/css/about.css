@@ -10,3 +10,33 @@
 .about__title__split {
     color: var(--primary);
 }
+
+.about__row {
+    display: flex;
+}
+
+.about__img-container {
+    flex: 1 0 60%;
+}
+
+.about__img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.about__description {
+    flex: 1 0 40%;
+    padding: 0 1rem;
+}
+
+.about__description__title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.about__description__paragraph {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 1.6;
+}
