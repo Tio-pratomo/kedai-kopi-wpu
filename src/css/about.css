@@ -2,15 +2,6 @@
     padding: 8rem 7% 1.4rem;
 }
 
-.about__title {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.about__title__split {
-    color: var(--primary);
-}
-
 .about__row {
     display: flex;
 }
