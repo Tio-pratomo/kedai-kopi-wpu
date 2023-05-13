@@ -8,4 +8,22 @@
     margin: auto;
     font-weight: 200;
     line-height: 1.6;
+    font-size: 1.25rem;
+}
+
+.menu__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+.menu__card {
+    text-align: center;
+}
+
+.menu__card__img {
+    border-radius: 50%;
+    width: 80%;
 }
