@@ -12,7 +12,7 @@ const cards = menus
     </div>
 `
     )
-    .join(' ');
+    .join('');
 
 export const renderMenu = () => {
     containerCard.innerHTML = cards;
