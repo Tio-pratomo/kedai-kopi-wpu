@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./docs/img/squad-html-css.jpg">
+    <img src="./src/docs/img/squad-html-css.jpg">
 </p>
 
 # Bellshade Squad (HTML+CSS)
@@ -128,22 +128,22 @@ Untuk memulai project kamu perlu repo sebagai codebase satu tim. Kamu dapat guna
 
 1. Klik use this template di repo ini.
  <p align="center">
-     <img src="./docs/img/getting-started-1.jpg">
+     <img src="./src/docs/img/getting-started-1.jpg">
  </p>
 
 2. Beri nama pada repo yang akan kamu buat.
  <p align="center">
-     <img src="./docs/img/getting-started-2.jpg" width="75%">
+     <img src="./src/docs/img/getting-started-2.jpg" width="75%">
  </p>
 
 3. Repo kamu sedang dibuat, tunggu sebentar.
  <p align="center">
-     <img src="./docs/img/getting-started-2-in-progress.jpg" width="75%">
+     <img src="./src/docs/img/getting-started-2-in-progress.jpg" width="75%">
  </p>
 
 4. Sudah, repo kamu sudah dibuat.
  <p align="center">
-     <img src="./docs/img/getting-started-3.jpg" width="75%">
+     <img src="./src/docs/img/getting-started-3.jpg" width="75%">
  </p>
 
 5. Ajakin temen kamu untuk selesaikan project ini bareng-bareng. ✨
@@ -172,13 +172,13 @@ Pertama kita tentukan dulu "SOP" / prosedur kolebnya seperti apa. ketika satu or
 dengan seperti ini kita bisa buat 5 kolom kanban di github projects, jika ada task yang berubah status kita bisa geser saja task itu kanban yg lain. Kemudian buat issue di setiap tasknya lalu tambahkan pada kanban backlog.
 
 <p align="center">
-    <img src="./docs/img/agile-1.jpg">
+    <img src="./src/docs/img/agile-1.jpg">
 </p>
 
 Kotak kotak task ini biasa dinamakan tiket, issue atau card (bebas sebutannya seperti apa). Di setiap tiket kamu dapat memberikan detail lagi seperti siapa yang mengerjakan, labels, milestone, atau komentar.
 
 <p align="center">
-    <img src="./docs/img/agile-2.jpg" width="70%">
+    <img src="./src/docs/img/agile-2.jpg" width="70%">
 </p>
 
 ## Bantuan
