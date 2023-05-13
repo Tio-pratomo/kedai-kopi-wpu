@@ -1,0 +1,11 @@
+.menu {
+    padding: 8rem 7% 1.4rem;
+}
+
+.menu__intro {
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.6;
+}
