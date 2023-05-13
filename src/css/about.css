@@ -2,6 +2,10 @@
     padding: 8rem 7% 1.4rem;
 }
 
+.about__subtitle {
+    margin-bottom: 3rem;
+}
+
 .about__row {
     display: flex;
 }
