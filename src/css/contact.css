@@ -10,3 +10,50 @@
     line-height: 1.6;
     font-size: 1.25rem;
 }
+
+.contact__row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #222;
+}
+
+.contact__location {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.form__input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
+    padding-left: 2rem;
+}
+
+.form__user,
+.form__email,
+.form__phone {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.75rem;
+    background: none;
+    color: #fff;
+}
+
+.form__submit {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.75rem;
+    color: #fff;
+    background-color: var(--primary);
+    cursor: pointer;
+}

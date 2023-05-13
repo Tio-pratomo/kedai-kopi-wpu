@@ -84,6 +84,21 @@
     }
 
     /* ABOUT END */
+
+    /* CONTACT */
+    .contact__row {
+        flex-wrap: wrap;
+    }
+
+    .contact__location {
+        height: 30rem;
+    }
+
+    .form {
+        padding-top: 0;
+    }
+
+    /* CONTACT END */
 }
 
 /* SMARTPHONE */
