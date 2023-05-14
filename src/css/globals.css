@@ -35,6 +35,8 @@ body {
 }
 
 [class*="hamburger-menu"] {
+    all: unset;
+    color: white;
     display: none;
 }
 
