@@ -1,4 +1,6 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CSSMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
 const path = require('path');
 const { merge } = require('webpack-merge');
@@ -23,6 +25,17 @@ module.exports = merge(config, {
                     },
                 },
             },
+        ],
+    },
+    optimization: {
+        minimizer: [
+            `...`,
+            new CSSMinimizerPlugin(),
+            new ImageMinimizerPlugin({
+                minimizer: {
+                    implementation: ImageMinimizerPlugin.squooshMinify,
+                },
+            }),
         ],
     },
     plugins: [
