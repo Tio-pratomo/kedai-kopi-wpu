@@ -1,6 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const webpack = require('webpack');
+
 module.exports = {
     entry: {
         app: './src/js/script.js',
@@ -49,6 +51,9 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: 'index.html',
+        }),
+        new webpack.EnvironmentPlugin({
+            MEMORY_LIMIT: '512',
         }),
     ],
 };
